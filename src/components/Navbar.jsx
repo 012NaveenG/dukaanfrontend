@@ -35,7 +35,7 @@ const Navbar = () => {
             <div className="navbar bg-neutral  text-neutral-content">
                 <div className="flex-1">
                     <Link to='/' className="btn btn-ghost text-xl">
-                        <img src="../Public/Images/Apni-Dukaan-Logo-Black-01.png" alt="" className='w-52 nav-logo h-12' />
+                        <img src="https://apnidukaan.com.au/wp-content/uploads/2021/04/Apni-Dukaan-Logo-Black-01.png" alt="" className='w-52 nav-logo h-12' />
                     </Link>
                 </div>
 
