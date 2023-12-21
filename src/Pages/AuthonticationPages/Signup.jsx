@@ -82,7 +82,7 @@ const Signup = () => {
                             value={FirstName}
                             type="text "
                             placeholder="first name"
-                            className="input input-sm input-warning input-bordered"
+                            className="input input-sm input-warning w-44 input-bordered"
                             required
                             onChange={(e) => setFirstName(e.target.value)}
                         />
@@ -95,7 +95,7 @@ const Signup = () => {
                             value={LastName}
                             type="text "
                             placeholder="last name"
-                            className="input input-sm input-warning input-bordered"
+                            className="input input-sm w-44 input-warning input-bordered"
                             required
                             onChange={(e) => setLastName(e.target.value)}
                         />
@@ -109,7 +109,7 @@ const Signup = () => {
                         value={Contact}
                         type="text"
                         placeholder="contact"
-                        className="input input-sm input-warning input-bordered"
+                        className="input input-sm w-88 input-warning input-bordered"
                         required
                         onChange={(e) => setContact(e.target.value)}
                     />
@@ -122,7 +122,7 @@ const Signup = () => {
                         value={Email}
                         type="email"
                         placeholder="email"
-                        className="input input-sm input-warning input-bordered"
+                        className="input input-sm w-88 input-warning input-bordered"
                         required
                         onChange={(e) => setEmail(e.target.value)}
                     />
@@ -135,7 +135,7 @@ const Signup = () => {
                         value={Username}
                         type="text"
                         placeholder="username"
-                        className="input input-sm input-warning input-bordered"
+                        className="input input-sm w-88 input-warning input-bordered"
                         required
                         onChange={(e) => setUsername(e.target.value)}
                     />
@@ -151,7 +151,7 @@ const Signup = () => {
                         value={Password}
                         type="password"
                         placeholder="password"
-                        className="input input-sm input-warning input-bordered"
+                        className="input input-sm w-88 input-warning input-bordered"
                         required
                         onChange={(e) => setPassword(e.target.value)}
                     />
@@ -163,7 +163,7 @@ const Signup = () => {
                 <div className="form-control mt-6">
                     <button
                         type='submit'
-                        className="btn btn-sm btn-warning text-white text-lg">Register</button>
+                        className="btn btn-sm btn-warning w-84 text-white text-lg">Register</button>
                 </div>
             </form>
         </div>
