@@ -1,7 +1,7 @@
 
 import React, { useContext, useState } from 'react'
 
-import Aside from './dashboardComponents/aside'
+import Aside from './dashboardComponents/aside.jsx'
 import UserContext from '../Context/context'
 
 
