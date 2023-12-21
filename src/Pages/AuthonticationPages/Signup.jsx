@@ -54,7 +54,7 @@ const Signup = () => {
     return (
         <div className="w-[420px] shrink-0  mx-auto my-5  shadow-2xl bg-base-100">
             {error}
-            <form className="p-5 rounded glass" onSubmit={registerForm}>
+            <form className="p-5 w- rounded glass" onSubmit={registerForm}>
                 <h1 className='text-center border-b-2 border-warning my-2 font-semibold text-xl'>Register!!</h1>
                 <div class="flex items-center justify-center">
                     <label for="file-input" class="cursor-pointer">
@@ -73,7 +73,8 @@ const Signup = () => {
                 </div>
                 <h2 className='text-center mb-1'>Profile Image</h2>
 
-                <div className="flex justify-between">
+                <div className="px-5">
+                <div className="flex gap-8 items-center ">
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">First Name</span>
@@ -82,7 +83,7 @@ const Signup = () => {
                             value={FirstName}
                             type="text "
                             placeholder="first name"
-                            className="input input-sm input-warning w-44 input-bordered"
+                            className="input input-sm input-warning w-36 input-bordered"
                             required
                             onChange={(e) => setFirstName(e.target.value)}
                         />
@@ -95,7 +96,7 @@ const Signup = () => {
                             value={LastName}
                             type="text "
                             placeholder="last name"
-                            className="input input-sm w-44 input-warning input-bordered"
+                            className="input input-sm w-36 input-warning input-bordered"
                             required
                             onChange={(e) => setLastName(e.target.value)}
                         />
@@ -109,7 +110,7 @@ const Signup = () => {
                         value={Contact}
                         type="text"
                         placeholder="contact"
-                        className="input input-sm w-88 input-warning input-bordered"
+                        className="input input-sm w-80 input-warning input-bordered"
                         required
                         onChange={(e) => setContact(e.target.value)}
                     />
@@ -122,7 +123,7 @@ const Signup = () => {
                         value={Email}
                         type="email"
                         placeholder="email"
-                        className="input input-sm w-88 input-warning input-bordered"
+                        className="input input-sm w-80 input-warning input-bordered"
                         required
                         onChange={(e) => setEmail(e.target.value)}
                     />
@@ -135,7 +136,7 @@ const Signup = () => {
                         value={Username}
                         type="text"
                         placeholder="username"
-                        className="input input-sm w-88 input-warning input-bordered"
+                        className="input input-sm w-80 input-warning input-bordered"
                         required
                         onChange={(e) => setUsername(e.target.value)}
                     />
@@ -151,7 +152,7 @@ const Signup = () => {
                         value={Password}
                         type="password"
                         placeholder="password"
-                        className="input input-sm w-88 input-warning input-bordered"
+                        className="input input-sm w-80 input-warning input-bordered"
                         required
                         onChange={(e) => setPassword(e.target.value)}
                     />
@@ -163,7 +164,8 @@ const Signup = () => {
                 <div className="form-control mt-6">
                     <button
                         type='submit'
-                        className="btn btn-sm btn-warning w-84 text-white text-lg">Register</button>
+                        className="btn btn-sm btn-warning w-80 text-white text-lg">Register</button>
+                </div>
                 </div>
             </form>
         </div>
