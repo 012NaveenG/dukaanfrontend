@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-hidden{
+        display: none;
+    }
+    .container-card{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+        padding: 10px 20px;
+        height: 100%;
+    }
+    .carousel{
+        display: none;
+    }
+    .product{
+        display: block;
+        width: 98%;
+        margin: 10px 0px;
+
+    }
+    .mobile-aside{
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 5px;
+        width: 100%;
+        height: 50px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mobile-aside-link{
+        /* width: 30%; */
+        /* background-color: red; */
+        padding: 0;
+        margin: 0 5px;
+    }
+    .mobile-device{
+        display: block;
+    }
+    .aside-display-hidden{
+        display: none;
+    }
+    .dashboard{
+        display: block;
+        padding: 14px;
+        width: 100%;
+        margin: 0;
+    }
+    .dashboard> div {
+        margin: 5px 0px;
+    }
+    .product-page-container{
+        width: 100%;
+    }
+    .add-product-form{
+        width: 95%;
+        margin: 10px auto;
+       padding: 10px;
+    }
+    .add-product-form > div >div {
+       
+        margin-top: 5px;
+        width: 100%;
+        
+    }
+    .add-product-form .container{
+        display: block;
+    }
+    
+    .add-product-form .container input{
+        width: 100%;
+    }
+    .add-product-form  button{
+        margin-top: 10px;
+    }
+    .user-card{
+        display: block;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .user-card div{
+        margin-top: 10px;
+        
+    }
+  }
