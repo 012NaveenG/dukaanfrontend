@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import Card from '../components/Card'
-import UserContext from '../Context/context'
+import Card from '../components/Card.jsx'
+import UserContext from '../Context/context.js'
 
 const Biscuit = () => {
   const {products}=useContext(UserContext)

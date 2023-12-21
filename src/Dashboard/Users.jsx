@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
-import Aside from './dashboardComponents/aside'
-import UsersCard from './dashboardComponents/UsersCard'
-import UserContext from '../Context/context'
+import Aside from './dashboardComponents/Aside.jsx'
+import UsersCard from './dashboardComponents/UsersCard.jsx'
+import UserContext from '../Context/context.js'
 
 
 

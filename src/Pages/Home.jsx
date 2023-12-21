@@ -1,8 +1,8 @@
 import React, { useContext, useEffect } from 'react'
-import ContainerCard from '../components/ContainerCard'
-import Crousel from '../components/Crousel'
-import Card from '../components/Card'
-import UserContext from '../Context/context'
+import ContainerCard from '../components/ContainerCard.jsx'
+import Crousel from '../components/Crousel.jsx'
+import Card from '../components/Card.jsx'
+import UserContext from '../Context/context.js'
 import { Link } from 'react-router-dom'
 
 

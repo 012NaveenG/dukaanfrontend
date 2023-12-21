@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Aside from './dashboardComponents/aside'
+import Aside from './dashboardComponents/Aside.jsx'
 import axios from 'axios'
 import BASE_BACKEND_URL from '../secret'
 

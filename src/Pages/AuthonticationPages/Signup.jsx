@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import BASE_BACKEND_URL from '../../secret'
+import BASE_BACKEND_URL from '../../secret.js'
 
 
 const Signup = () => {

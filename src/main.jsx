@@ -15,7 +15,7 @@ import Dryfruits from './Pages/Dryfruits.jsx'
 import Namkeen from './Pages/Namkeen.jsx'
 import Eadbleoil from './Pages/Eadbleoil.jsx'
 import Dashboard from './Dashboard/Dashboard.jsx'
-import Profile from './Dashboard/Profile.jsx'
+
 import Products from './Dashboard/Products.jsx'
 import Users from './Dashboard/Users.jsx'
 import Login from './Pages/AuthonticationPages/Login.jsx'
@@ -74,10 +74,7 @@ const router = createBrowserRouter([
         path: '/admin/',
         element: <Dashboard />
       },
-      {
-        path: '/admin/profile',
-        element: <Profile />
-      },
+      
       {
         path: '/admin/products',
         element: <Products />

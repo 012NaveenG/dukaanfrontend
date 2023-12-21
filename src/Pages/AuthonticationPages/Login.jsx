@@ -1,8 +1,8 @@
 import axios from 'axios'
 import React, {  useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
-import BASE_BACKEND_URL from '../../secret'
-import UserContext from '../../Context/context'
+import BASE_BACKEND_URL from '../../secret.js'
+import UserContext from '../../Context/context.js'
 
 
 const Login = () => {
