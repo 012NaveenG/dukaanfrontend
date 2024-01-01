@@ -50,7 +50,7 @@ const UserContextProvider = ({ children }) => {
         console.error('Error fetching data:', error);
       });
 
-  })
+  },[])
 
   // console.log(dal);
   // console.log(CurrentUser);
