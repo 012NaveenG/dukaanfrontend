@@ -37,7 +37,7 @@ const Home = () => {
           {products && products.map((items, index) => {
             // console.log(items);
             return (
-              <Card data={{ title: items.title, price: items.price.cost, image: items.image.URL }} />
+              <Card key={index} data={{ title: items.title, price: items.price.cost, image: items.image.URL }} />
             )
           })}
 
